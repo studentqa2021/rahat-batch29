@@ -1,0 +1,119 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 5,
+        "name": "As a Luma application user, must do successful login with valid credential.",
+        "description": "",
+        "id": "login-function-test;as-a-luma-application-user--must-do-successful-login-with-valid-credential.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: cannot find msedge binary\nBuild info: version: \u00274.1.0\u0027, revision: \u002787802e897b\u0027\nSystem info: host: \u0027DESKTOP-HCNV2JV\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002711.0.16\u0027\nDriver info: org.openqa.selenium.edge.EdgeDriver\nCommand: [null, newSession {capabilities\u003d[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}], desiredCapabilities\u003dCapabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}}]\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)\r\n\tat org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.\u003cinit\u003e(RemoteWebDriver.java:168)\r\n\tat org.openqa.selenium.chromium.ChromiumDriver.\u003cinit\u003e(ChromiumDriver.java:108)\r\n\tat org.openqa.selenium.edge.EdgeDriver.\u003cinit\u003e(EdgeDriver.java:49)\r\n\tat org.openqa.selenium.edge.EdgeDriver.\u003cinit\u003e(EdgeDriver.java:41)\r\n\tat org.openqa.selenium.edge.EdgeDriver.\u003cinit\u003e(EdgeDriver.java:38)\r\n\tat com.drivermanager.DriverManager.getBrowser(DriverManager.java:22)\r\n\tat com.cucumber.test.StefDef.open_any_browser(StefDef.java:24)\r\n\tat ✽.open any browser(file:src/main/resources/Login.feature:6)\r\n",
+              "duration": 3846327632,
+              "status": "failed"
+            },
+            "line": 6,
+            "name": "open any browser",
+            "match": {
+              "location": "StefDef.open_any_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10226,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "go to application URL",
+            "match": {
+              "location": "StefDef.go_to_application_URL()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3526,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "click sign in button",
+            "match": {
+              "location": "StefDef.click_sign_in_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2821,
+              "status": "skipped"
+            },
+            "line": 9,
+            "name": "put email",
+            "match": {
+              "location": "StefDef.put_email()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2821,
+              "status": "skipped"
+            },
+            "line": 10,
+            "name": "put password",
+            "match": {
+              "location": "StefDef.put_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 11,
+            "name": "click second sign in button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "validate login was succesfull",
+            "match": {},
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@SmokeTest"
+          },
+          {
+            "name": "@TC_1012"
+          }
+        ]
+      }
+    ],
+    "name": "Login function Test",
+    "description": "",
+    "id": "login-function-test",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/Login.feature",
+    "tags": [
+      {
+        "name": "@SmokeTest",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

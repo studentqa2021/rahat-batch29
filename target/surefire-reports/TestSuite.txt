@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 6.209 s <<< FAILURE! - in TestSuite
+com.cucumber.test.CucumberRunner.runScenario  Time elapsed: 4.337 s  <<< FAILURE!
+org.openqa.selenium.SessionNotCreatedException: 
+Could not start a new session. Response code 500. Message: unknown error: cannot find msedge binary
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-HCNV2JV', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}], desiredCapabilities=Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}}]
+
